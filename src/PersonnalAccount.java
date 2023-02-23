@@ -8,11 +8,11 @@ public class PersonnalAccount extends BankAccount{
     private double transactionsFee;
 
 
-    public PersonnalAccount(Person holder, Date openingDate, long accountNumber, double transactionsFee , boolean isWorking) {
+    public PersonnalAccount(Person holder, Date openingDate, long accountNumber , boolean isWorking) {
         super(holder, openingDate, accountNumber);
         this.isWorking = isWorking;
         this.freeTransactions = 10;
-        this.transactionsFee = transactionsFee;
+        this.transactionsFee = 0.02; // 2% of the transaction value
     }
 
     public boolean isWorking() {

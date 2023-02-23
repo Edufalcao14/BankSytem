@@ -9,14 +9,14 @@ public class BankSystem {
         this.accountMap = new HashMap<>();
     }
     public void addAccount(Person holder , Date openingDate , long accountNumber,
-                           String accountType, String tutor, long companyNumber , double transactionsFee , boolean isWorking) {
+                           String accountType, String tutor, long companyNumber , boolean isWorking) {
         BankAccount account = new BankAccount(holder, openingDate, accountNumber);
         if (accountType.equals("underage")){
-            account= new underageAccount(holder,openingDate,accountNumber,tutor,transactionsFee);
+            account= new underageAccount(holder,openingDate,accountNumber,tutor);
         }else if (accountType.equals("Professional")){
-            account = new ProfessionalAccount(holder,openingDate,accountNumber, companyNumber,transactionsFee);
+            account = new ProfessionalAccount(holder,openingDate,accountNumber, companyNumber);
         }else
-            account = new PersonnalAccount(holder,openingDate,accountNumber,transactionsFee,isWorking);
+            account = new PersonnalAccount(holder,openingDate,accountNumber,isWorking);
         accountMap.put(accountNumber,account);
     }
 

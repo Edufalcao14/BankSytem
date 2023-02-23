@@ -8,17 +8,20 @@ public class ProfessionalAccount extends BankAccount {
 
     private double transactionsFee;
 
-    public ProfessionalAccount(Person holder, Date openingDate, long accountNumber , long companyNumber , double transactionsFee) {
+    public ProfessionalAccount(Person holder, Date openingDate, long accountNumber , long companyNumber ) {
         super(holder, openingDate, accountNumber);
         this.companyNumber = companyNumber;
         this.overdraftlimit = 5000;
-        this.transactionsFee = transactionsFee;
+        this.transactionsFee =0.035 ; // 3,5%  of the transaction value
     }
 
     public double getOverdraftlimit() {
         return overdraftlimit;
     }
 
+    public void setTransactionsFee(double transactionsFee) {
+        this.transactionsFee = transactionsFee;
+    }
 
     @Override
     public String toString() {
