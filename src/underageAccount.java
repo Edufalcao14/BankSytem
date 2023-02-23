@@ -6,7 +6,7 @@ public class underageAccount extends BankAccount {
     private String tutor;
     private double transactionsFee;
 
-    public underageAccount(Person holder, Date openingDate, long accountNumber, String tutor, double transactionsFee) {
+    public underageAccount(Person holder, Date openingDate, long accountNumber, String tutor) {
         super(holder, openingDate, accountNumber);
         this.tutor=tutor;
         this.transactionsFee= 0;
