@@ -4,12 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4feabae5-81e8-46ae-bcd6-d9b201aec8c8" name="Changes" comment="First Commit">
+    <list default="true" id="4feabae5-81e8-46ae-bcd6-d9b201aec8c8" name="Changes" comment="Changes in transactionFee rules">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Adress.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Adress.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BankAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BankAccount.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/BankSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BankSystem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PersonnalAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PersonnalAccount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ProfessionalAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProfessionalAccount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/underageAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/underageAccount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PersonnalAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PersonalAccount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ProfessionalAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BusinessAccount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/underageAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UnderageAccount.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +28,10 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="SWAP_SIDES_IN_COMPARE_BRANCHES" value="true" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -37,23 +44,53 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;
   },
-  "keyToStringList": {
-    "ChangesTree.GroupingKeys": [
-      "module",
-      "directory"
+  &quot;keyToStringList&quot;: {
+    &quot;ChangesTree.GroupingKeys&quot;: [
+      &quot;module&quot;,
+      &quot;directory&quot;
     ]
   }
-}]]></component>
+}</component>
+  <component name="RunManager" selected="Application.MainBankSystemTest">
+    <configuration name="BankSystemTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BankSystemTest" />
+      <module name="BankSystem" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BankTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BankTest" />
+      <module name="BankSystem" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainBankSystemTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MainBankSystemTest" />
+      <module name="BankSystem" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MainBankSystemTest" />
+        <item itemvalue="Application.BankTest" />
+        <item itemvalue="Application.BankSystemTest" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -64,7 +101,13 @@
       <updated>1676974195609</updated>
       <workItem from="1676974196856" duration="1359000" />
       <workItem from="1677098389970" duration="3352000" />
-      <workItem from="1677102792043" duration="8001000" />
+      <workItem from="1677102792043" duration="8388000" />
+      <workItem from="1677149114792" duration="11440000" />
+      <workItem from="1677169660184" duration="2418000" />
+      <workItem from="1677184588495" duration="6865000" />
+      <workItem from="1677362058183" duration="3950000" />
+      <workItem from="1677573007531" duration="11000" />
+      <workItem from="1677881489288" duration="4901000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <created>1677112341048</created>
@@ -80,7 +123,28 @@
       <option name="project" value="LOCAL" />
       <updated>1677112381198</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Changes in transactionFee rules">
+      <created>1677113280298</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1677113280298</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Changes in transactionFee rules">
+      <created>1677113335137</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1677113335137</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Changes in transactionFee rules">
+      <created>1677113615586</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1677113615586</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -91,7 +155,34 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/Main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="origin/Main" />
+                </option>
+              </RecentGroup>
+            </list>
           </value>
         </entry>
       </map>
@@ -99,6 +190,22 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="First Commit" />
+    <MESSAGE value="Changes in transactionFee rules" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changes in transactionFee rules" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/BusinessAccount.java</url>
+          <line>19</line>
+          <properties class="BusinessAccount" method="getCompanyNumber">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

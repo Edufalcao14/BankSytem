@@ -3,7 +3,7 @@ public class Adress {
     private int number;
 
 
-    private Adress(String street, int number, String city,String zipCode) {
+    public Adress(String street, int number, String city, String zipCode) {
         this.street = street;
         this.city = city;
         this.zipCode = zipCode;
@@ -28,11 +28,10 @@ public class Adress {
 
     @Override
     public String toString() {
-        return "Adress{" +
-                "street='" + street + '\'' +
-                ", city='" + city + '\'' +
-                ", zipCode='" + zipCode + '\'' +
-                ", number=" + number +
-                '}';
+        return "\"\\n\" + Adress : " +
+                " Street :" + street + "\n"+
+                "City='" + city + "\n" +
+                "ZipCode='" + zipCode + "\n" +
+                "Nnumber=" + number + "\n";
     }
 }

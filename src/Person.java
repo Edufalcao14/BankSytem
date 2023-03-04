@@ -3,11 +3,11 @@ import java.util.Date;
 public class Person {
     private String firstname;
     private String lastName;
-    private long idNumber;
+    private int idNumber;
     private Adress address;
     private Date birthDate;
 
-    public Person(String firstname, String lastName, long idNumber, Adress address, Date birthDate) {
+    public Person(String firstname, String lastName, int idNumber, Adress address, Date birthDate) {
         this.firstname = firstname;
         this.lastName = lastName;
         this.idNumber = idNumber;
@@ -23,7 +23,7 @@ public class Person {
         return lastName;
     }
 
-    public long getIdNumber() {
+    public int getIdNumber() {
         return idNumber;
     }
 
@@ -41,12 +41,11 @@ public class Person {
 
     @Override
     public String toString() {
-        return "Person{" +
-                "firstname='" + firstname + '\'' +
-                ", lastName='" + lastName + '\'' +
-                ", idNumber=" + idNumber +
-                ", address=" + address +
-                ", birthDate=" + birthDate +
-                '}';
+        return "Person : " + '\'' +
+                "Firstname='" + firstname + "\n" +
+                ", lastName='" + lastName + "\n" +
+                ", idNumber=" + idNumber + "\n" +
+                ", address=" + address + "\n" +
+                ", birthDate=" + birthDate + "\n" ;
     }
 }
